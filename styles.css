@@ -1,0 +1,617 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    width: 100%;
+    height: 100vh;
+}
+
+.heaer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 140px;
+    padding-right: 140px;
+}
+
+a{
+    color: #005AE2;
+    text-decoration: none;
+    padding-left: 80px;
+}
+
+.button1{
+    color: #fff;
+    background-color: #005AE2;
+    border: #005AE2 2px solid;
+    border-radius: 24px;
+    padding: 8px 18px 8px 18px;
+}
+
+.h2first{
+    width: 800px;
+    padding-left: 240px;
+    padding-right: 140px;
+    padding-top: 55px;
+    font-size: 35px;
+    line-height: 60px;
+    text-align: center;
+}
+
+.pers{
+    width: 580px;
+    padding-left: 390px;
+    padding-right: 200px;
+    padding-top: 15px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.layout2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 600px;
+    padding-right: 600px;
+    padding-top: 45px;
+    text-align: center;
+}
+
+.button2{
+    color: #fff;
+    background-color: #005AE2;
+    border: #005AE2 2px solid;
+    border-radius: 24px;
+    padding: 8px 24px 8px 24px;
+}
+
+
+
+/* Hero section */
+.main_container{
+    height: 80px;
+    border: none;
+  }
+  .container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+   
+  }
+
+  .signup1 {
+    color: #fff;
+    background-color: #005AE2;
+    width: 150px;
+    height: 40px;
+    border-radius: 50px;
+    border: none;
+    margin-left: 5px;
+    margin-right: 250px;
+    margin-top: 2px;
+  }
+
+  .p1 {
+    margin-top: -35px;
+    margin-left: 20px;
+    font-weight: 900;
+  }
+
+  nav ul{
+    display: flex;
+    gap:3rem;
+    list-style: none;
+  }
+
+  
+  
+  li{
+    text-align: center;
+    font-family: Gilroy-Medium;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+
+/* imported images section */
+  .fig1 {
+    margin-left: 400px;
+    margin-top: -260px;
+    z-index: 2;
+  }
+
+  .fig2 {
+    margin-left: 400px;
+    margin-top: 120px;
+    top: 30px;
+    left: 40%;
+    z-index: 1;
+}
+
+  .fig3 {
+    margin-top: 45px;
+    margin-left: 40px;
+    padding-bottom: 8px;
+    margin-bottom: 0px;
+}
+
+.fig4 {
+    margin-top: -90px;
+    margin-left: 250px;
+}
+
+  .vector3 {
+    position: absolute;
+    margin-left: 630px;
+    margin-top: -70px;
+    padding-top: -30px;
+    
+  }
+
+  .hero{
+    border: none;
+    text-align: center;
+    background-repeat: no-repeat;
+    height: 400px;
+
+  }
+  .hero_container{
+    display: flex;
+    justify-content: space-around;
+    font-family: Gilroy-Bold;
+    font-size: 48px;
+    line-height: 96px;
+    letter-spacing: 0em;
+    text-align: center;
+   
+  }
+
+  .btn01 {
+    background:rgba(0, 101, 254, 1);
+    color: white;
+    width: 142px;
+    height: 44px;
+    padding: 12px 24px 12px 24px;
+    border-radius: 100px;
+    border: none;
+    margin-top: -1rem;
+    outline: none;
+  }
+
+ .fisrt-p {
+  width:45%;
+  height: 105px;
+  font-family: Gilroy-Medium;
+  font-size: 18px;
+  margin-top: -35px;
+  padding-left: 400px;
+  margin-right: 400px;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: center;
+ }
+
+  ul{
+    display: flex;
+    gap:2rem
+  }
+  .span-blue{
+    color:blue
+  }
+
+ 
+  /* css for Desktop 10 (second section) */
+  .stop{
+    background-color: rgba(0, 90, 226, 0.1);
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 40px 40px 60px 40px;
+}
+
+.stop1{
+    line-height: 20px;
+    margin-left: 10px;
+}
+
+.stop2 {
+    margin-left: 100px;
+
+}
+
+.stop3{
+    margin-left: 110px;
+
+}
+
+.stop4{
+    margin-right: 40px;
+
+}
+
+.stop5{
+    margin-right: 200px;
+
+}
+
+/* Desktop 10 section */
+.c1 {
+    background-color: rgb(230, 239, 247);
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    margin-top: 43px;
+    margin-left: 0px;
+    border: none;
+}
+
+.img23 {
+    padding-top: 6px;
+    margin-top: 20px;
+    margin-left: 2px;
+}
+
+
+.a11 {
+    padding-top: 6px;
+    margin-left: 2px;
+}
+
+.b11 {
+    padding-top: 6px;
+    margin-left: 2px;
+}
+
+.c11 {
+    padding-top: 5px;
+    margin-left: 2px;
+}
+
+.d11 {
+    padding-top: 6px;
+    margin-left: 2px;
+
+}
+
+.span-h {
+    color: #005AE2;
+}
+
+.choice{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 46px;
+    padding: 100px 40px 80px 40px;
+}
+.choice1{
+    width: 520px;
+    border: 1px solid green;
+    padding-left: 30px;
+    padding-right: 140px;
+}
+
+.choice1 h1{
+    font-size: 2.3rem;
+
+}
+.choice2{
+    width: 400px;
+    border: 1px solid green;
+    padding-left: 20px;
+    padding-right: 100px;
+}
+
+.choice3{
+    width: 400px;
+    border: 1px solid green;
+    padding-left: 20px;
+    padding-right: 100px;
+}
+
+/*desktop 1 section (pricing section) */
+
+.price{
+    width: 500px;
+    padding-left: 500px;
+  }
+  
+  .vr{
+    display: flex;
+  }
+  
+  .pricing{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-left: 150px;
+    margin-right: 90px;
+    line-height: 30px;
+    margin-top: 70px;
+    border: #005AE2 1px solid;
+    border-radius: 15px;
+    flex-wrap: nowrap;
+    position: relative;
+  }
+  
+  .professional{
+    background-color: #1E3448;
+    padding: 40px 65px 40px 65px;
+    color: #fff;
+    border: #000 solid 1px;
+    border-radius: 10px;
+    position: absolute;
+    left: 400px;
+    top: -50px;
+    bottom: -50px;
+  }
+  
+  ul{
+    margin: 0;
+    padding: 0;
+  }
+  
+  .bottombut{
+    padding-left: 530px;
+    padding-right: 90px;
+    padding-top: 40px;
+    padding-bottom: 80px;
+    margin-top: 100px;
+  }
+  
+  .but1{
+    color: #005AE2;
+    border: #005AE2 solid 2px;
+    border-radius: 30px;
+    padding: 10px 18px 10px 18px;
+  }
+  
+  .but2{
+    background-color: #005AE2;
+    color: #fff;
+    border: #005AE2 solid 2px;
+    border-radius: 30px;
+    padding: 10px 40px 10px 40px;
+    margin-left: 20px;
+  }
+  
+  /* form section */
+  .fourth{
+    background-color: #1E3448;
+    height: 500px;
+    position: relative;
+    background-image: url(/assets/vector.png);
+    background-repeat: no-repeat;
+}
+
+.form{
+    width: 380px;
+    height: 260px;
+    padding: 50px 40px 30px 50px;
+    border: #fff solid 2px;
+    color: #005AE2;
+    border-radius: 12px;
+    background-color: #fff;
+    position: absolute;
+    z-index: 1;
+    left: 33%;
+    top: 85px;
+}
+
+.first-input {
+    text-align: left;
+    line-height: 20px;
+    padding: 10px 98px 10px 100px
+}
+
+.second-input {
+    line-height: 23px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+
+}
+
+
+.domain-c {
+    line-height: 23px;
+    padding-bottom: 256px;
+
+}
+
+#domain {
+    padding: 10px 30px 10px 30px;
+}
+
+.button3{
+    background-color: #005AE2;
+    color: #fff;
+    border: #005AE2 solid 2px;
+    line-height: 25px;
+    margin-top: 10px;
+    border-radius: 25px;
+    padding: 8px 155px 8px 155px;
+    border-bottom: 14px;
+    
+}
+
+.magic-wand {
+    position: absolute;
+    top: 190px;
+    left: 57%;
+    z-index: 1;
+}
+
+/*  FAQs section */
+.accordion {
+    background-color: #fff;
+    color: #000;
+    cursor: pointer;
+    padding-left: 0px;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    width: 80%;
+    text-align: left;
+    border: none;
+    border-bottom: 1px solid #444;
+    outline: none;
+    transition: 0.4s;
+    font-size: 1.2rem;
+  }
+  
+  /* Accordion hover property */
+  .active .accordion:hover {
+    background-color: #eee;
+  }
+  
+  .panel {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+  }
+  
+  .box {
+    display: block;
+    border-top: 30px;
+    border-left: 200px;
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 300px;
+    box-sizing: border-box;
+    border: 1px solid red;
+  }
+  .pwp {
+    padding-left: 13px;
+    font-size: 2rem;
+    font-weight: 800;
+  
+  }
+  
+  .sp {
+    display: flex;
+    justify-content: right;
+  }
+  .faq {
+    display: flex;
+    flex-direction: row;
+    padding-top: 5px;
+    padding-bottom: 25px;
+    padding-left: 350px;
+    font-size: 3rem;
+}
+
+/* sixth section */
+.button4{
+    color: #fff;
+    background-color: #005AE2;
+    border-radius: 30px;
+    width: 200px;
+    height: 50px;
+    font-size: 0.95rem;
+    margin-top: 240px;
+    margin-left: 600px;
+  }
+  
+  .sixth{
+    background-color: #1E3448;
+    height: 400px;
+    display: flex;
+    position: relative;
+  }
+
+  
+  
+  .but{
+    width: 500px;
+    height: 280px;
+    position: absolute;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+  }
+
+  /* Footer Section */
+  .footer{
+    display: flex;
+    align-items: left;
+    justify-content: space-between;
+    padding: 60px 200px 60px 140px;
+    line-height: 1px;
+    margin-bottom: 50px;
+  }
+  
+  .footer1{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: space-between;
+    height: 130px;
+    width: 180px;
+    border: 1px solid red;
+    margin-left: 30px;
+  }
+  
+  .footer2{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: space-between; 
+    height: 200px;
+  }
+  
+  .footer3{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: space-between; 
+    height: 200px;
+  }
+  
+  .footer4{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: space-between; 
+    height: 200px;
+  }
+  
+  .footer5{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: space-between; 
+    height: 200px;
+  }
+  
+  .foot{
+    display: flex;
+  }
+  
+  .vertical{
+    border-left: 6px solid black;
+    height: 40px;
+    position: absolute;
+    left: 50%;
+  }
+  
+  footer{
+    float: right;
+    padding-top: 200px;
+  }
+
+
+
+
+
+
+
+  
+  
