@@ -288,6 +288,7 @@ a{
 .choice1{
     width: 520px;
     border: 1px solid green;
+    border-radius: 15px;
     padding-left: 30px;
     padding-right: 140px;
 }
@@ -299,6 +300,7 @@ a{
 .choice2{
     width: 400px;
     border: 1px solid green;
+    border-radius: 15px;
     padding-left: 20px;
     padding-right: 100px;
 }
@@ -306,6 +308,7 @@ a{
 .choice3{
     width: 400px;
     border: 1px solid green;
+    border-radius: 15px;
     padding-left: 20px;
     padding-right: 100px;
 }
@@ -319,6 +322,10 @@ a{
   
   .vr{
     display: flex;
+  }
+
+  .p-first {
+    padding-bottom: 60px;
   }
   
   .pricing{
@@ -341,10 +348,47 @@ a{
     color: #fff;
     border: #000 solid 1px;
     border-radius: 10px;
+    height: 300px;
     position: absolute;
-    left: 400px;
+    overflow: hidden;
+    left: 300px;
+    right: 400px;
     top: -50px;
     bottom: -50px;
+  }
+
+  .professional ul {
+    list-style: none;
+}
+
+
+.basic{
+    margin-left: 80px;
+    margin-right: 60px;
+}
+
+.basic ul {
+    list-style: none;
+}
+
+.teams {
+    margin-right: 80px;
+    margin-top: 50px;
+}
+
+.teams ul {
+    list-style: none;
+}
+
+.fourth{
+    background-color: #1E3448;
+    height: 500px;
+    position: relative;
+}
+
+
+  .span-t {
+    color: #005AE2;
   }
   
   ul{
@@ -402,13 +446,18 @@ a{
 .first-input {
     text-align: left;
     line-height: 20px;
-    padding: 10px 98px 10px 100px
+    padding: 10px 98px 10px 100px;
+    border: 2px solid #005AE2;
+    border-radius: 10px;
 }
 
 .second-input {
     line-height: 23px;
     padding-top: 7px;
     padding-bottom: 7px;
+    border: 2px solid #005AE2;
+    border-radius: 10px;
+    margin-top: 10px;
 
 }
 
@@ -416,6 +465,11 @@ a{
 .domain-c {
     line-height: 23px;
     padding-bottom: 256px;
+    border: 2px solid #005AE2;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: 5px;
+
 
 }
 
@@ -428,11 +482,15 @@ a{
     color: #fff;
     border: #005AE2 solid 2px;
     line-height: 25px;
-    margin-top: 10px;
+    margin-top: 40px;
     border-radius: 25px;
     padding: 8px 155px 8px 155px;
     border-bottom: 14px;
     
+}
+
+.root {
+    padding-top: 30px;
 }
 
 .magic-wand {
@@ -481,7 +539,6 @@ a{
     padding-bottom: 50px;
     padding-left: 300px;
     box-sizing: border-box;
-    border: 1px solid red;
   }
   .pwp {
     padding-left: 13px;
@@ -550,15 +607,23 @@ a{
   
   .footer1{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: left;
     justify-content: space-between;
-    height: 130px;
-    width: 180px;
-    border: 1px solid red;
-    margin-left: 30px;
+    position: absolute;
+    margin-top: 60px;
+    margin-left: -3px;
+    height: 30px;
+    width: 200px;
+    padding-top: 30px;
+    
   }
   
+  .logo2{
+    margin-top: -145px;
+    margin-left: 20px;
+  }
+
   .footer2{
     display: flex;
     flex-direction: column;
@@ -602,10 +667,17 @@ a{
     left: 50%;
   }
   
-  footer{
+  .last-child{
     float: right;
     padding-top: 200px;
   }
+
+  
+
+ 
+     
+ 
+
 
 
 
